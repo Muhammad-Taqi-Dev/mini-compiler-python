@@ -1,0 +1,30 @@
+int a;
+int b;
+int sum;
+int result;
+int counter;
+
+a = 15;
+b = 5;
+
+sum = a + b;
+
+if (sum > 10)
+{
+    result = sum * b;
+    print(result);
+}
+else
+{
+    print(a);
+}
+
+counter = 2;
+
+while (counter > 0)
+{
+    print(counter);
+    counter = counter - 1;
+}
+
+print(sum);

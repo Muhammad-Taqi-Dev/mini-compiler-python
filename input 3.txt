@@ -1,0 +1,39 @@
+int a;
+int b;
+int sum;
+int sub;
+int mul;
+int div;
+int counter;
+
+a = 20;
+b = 5;
+
+sum = a + b;
+sub = a - b;
+mul = a * b;
+div = a / b;
+
+if (a > b)
+{
+    print(sum);
+}
+
+if (b == 5)
+{
+    print(mul);
+}
+else
+{
+    print(sub);
+}
+
+counter = 3;
+
+while (counter > 0)
+{
+    print(counter);
+    counter = counter - 1;
+}
+
+print(div);
